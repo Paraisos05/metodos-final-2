@@ -16,6 +16,7 @@ namespace Metodos_proyecto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new DescuentoPorCantidad());
            Application.Run(new CostoAnualAlmacenar());
             Application.Run(new CostoTotalAnual());
         }
