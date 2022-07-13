@@ -175,7 +175,7 @@ namespace Project_Metodos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Dashboard());
+            //OpenChildForm(new Dashboard());
             hideSubmMenu();
 
         }
@@ -226,13 +226,15 @@ namespace Project_Metodos
 
         private void btnCostoOrdenar_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new CostoPedidoProduccion());
+
+            OpenChildForm(new CostoAnualPedido());
             hideSubmMenu();
 
         }
 
         private void btnCostoAlmacenar_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new CostoAnualAlmacenar());
             hideSubmMenu();
         }
 
@@ -266,6 +268,39 @@ namespace Project_Metodos
         private void button18_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ISCostoTotal());
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            currentChildForm.Close();
+            Reset();
+        }
+
+        private void pCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pPantallaCompleta_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+                WindowState = FormWindowState.Maximized;
+            else
+                WindowState = FormWindowState.Normal;
+        }
+
+        private void pMinimizar_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        //Remove transparent border in maximized state
+        private void FormMainMenu_Resize(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Maximized)
+                FormBorderStyle = FormBorderStyle.None;
+            else
+                FormBorderStyle = FormBorderStyle.Sizable;
         }
     }
 }
