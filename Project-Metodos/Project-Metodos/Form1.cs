@@ -214,7 +214,7 @@ namespace Project_Metodos
 
         private void button17_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new InventarioSeguridad());
         }
 
         private void btnInventarioPromedio_Click(object sender, EventArgs e)
@@ -261,6 +261,11 @@ namespace Project_Metodos
         private void button6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ISCostoTotal());
         }
     }
 }
