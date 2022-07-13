@@ -17,7 +17,7 @@ namespace Project_Metodos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int numPiezasOrdenar = int.Parse(tb_Piezas.Text);
+            double numPiezasOrdenar = double.Parse(tb_Piezas.Text);
             double inventarioPromedio = (numPiezasOrdenar / 2);
             tb_Result.Text = inventarioPromedio.ToString();
         }
