@@ -89,7 +89,7 @@ namespace Project_Metodos
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(220, 506);
+            this.panelMenu.Size = new System.Drawing.Size(220, 668);
             this.panelMenu.TabIndex = 0;
             // 
             // panelSeguridadSubmenu
@@ -423,9 +423,10 @@ namespace Project_Metodos
             this.button6.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button6.Size = new System.Drawing.Size(199, 24);
             this.button6.TabIndex = 5;
-            this.button6.Text = "btnEOQPorcentaje";
+            this.button6.Text = "EOQ Porcentaje";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -476,7 +477,7 @@ namespace Project_Metodos
             this.btnCostoOrdenar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.btnCostoOrdenar.Size = new System.Drawing.Size(199, 24);
             this.btnCostoOrdenar.TabIndex = 2;
-            this.btnCostoOrdenar.Text = "Costo anual por ordenar";
+            this.btnCostoOrdenar.Text = "Costo por ordenar";
             this.btnCostoOrdenar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCostoOrdenar.UseVisualStyleBackColor = true;
             this.btnCostoOrdenar.Click += new System.EventHandler(this.btnCostoOrdenar_Click);
@@ -639,7 +640,7 @@ namespace Project_Metodos
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(220, 85);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(900, 421);
+            this.panelDesktop.Size = new System.Drawing.Size(900, 583);
             this.panelDesktop.TabIndex = 3;
             this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
             // 
@@ -647,7 +648,7 @@ namespace Project_Metodos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1120, 506);
+            this.ClientSize = new System.Drawing.Size(1120, 668);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelShadow);
             this.Controls.Add(this.panelTitleBar);

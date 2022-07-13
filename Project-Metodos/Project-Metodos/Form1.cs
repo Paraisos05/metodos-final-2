@@ -219,13 +219,16 @@ namespace Project_Metodos
 
         private void btnInventarioPromedio_Click(object sender, EventArgs e)
         {
-           
+
+            OpenChildForm(new InventarioPromedio());
             hideSubmMenu();
         }
 
         private void btnCostoOrdenar_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new CostoPedidoProduccion());
             hideSubmMenu();
+
         }
 
         private void btnCostoAlmacenar_Click(object sender, EventArgs e)
@@ -243,12 +246,19 @@ namespace Project_Metodos
 
         }
 
+
+        //Abrir formulario de CostoAnualPedido de producciones
         private void button11_Click(object sender, EventArgs e)
         {
             OpenChildForm(new CostoAnualPedido());
         }
 
         private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
 
         }
