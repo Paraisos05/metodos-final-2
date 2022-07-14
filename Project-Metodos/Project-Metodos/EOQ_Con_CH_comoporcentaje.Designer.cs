@@ -35,15 +35,19 @@
             this.lDemandaDiaria = new System.Windows.Forms.Label();
             this.lProduccion = new System.Windows.Forms.Label();
             this.lPiezasOrdenar = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // ostras
             // 
             this.ostras.BackColor = System.Drawing.Color.MediumOrchid;
-            this.ostras.Location = new System.Drawing.Point(351, 231);
-            this.ostras.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.ostras.Location = new System.Drawing.Point(307, 173);
+            this.ostras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ostras.Name = "ostras";
-            this.ostras.Size = new System.Drawing.Size(201, 40);
+            this.ostras.Size = new System.Drawing.Size(176, 30);
             this.ostras.TabIndex = 34;
             this.ostras.Text = "Calcular Costo Total Anual";
             this.ostras.UseVisualStyleBackColor = false;
@@ -53,21 +57,22 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(347, 57);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Location = new System.Drawing.Point(304, 43);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 20);
+            this.label2.Size = new System.Drawing.Size(76, 15);
             this.label2.TabIndex = 29;
-            this.label2.Text = "Costo Anual por Almacenar";
+            this.label2.Text = "Costo-Precio";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lResult
             // 
             this.lResult.AutoSize = true;
             this.lResult.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lResult.Location = new System.Drawing.Point(440, 184);
-            this.lResult.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lResult.Location = new System.Drawing.Point(385, 138);
+            this.lResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lResult.Name = "lResult";
-            this.lResult.Size = new System.Drawing.Size(18, 20);
+            this.lResult.Size = new System.Drawing.Size(16, 15);
             this.lResult.TabIndex = 28;
             this.lResult.Text = "...";
             // 
@@ -75,11 +80,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(419, 151);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Location = new System.Drawing.Point(367, 113);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(75, 20);
+            this.label1.Size = new System.Drawing.Size(59, 15);
             this.label1.TabIndex = 27;
             this.label1.Text = "Resultado";
             // 
@@ -87,43 +92,76 @@
             // 
             this.lDemandaDiaria.AutoSize = true;
             this.lDemandaDiaria.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lDemandaDiaria.Location = new System.Drawing.Point(69, 151);
-            this.lDemandaDiaria.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lDemandaDiaria.Location = new System.Drawing.Point(60, 113);
+            this.lDemandaDiaria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lDemandaDiaria.Name = "lDemandaDiaria";
-            this.lDemandaDiaria.Size = new System.Drawing.Size(120, 20);
+            this.lDemandaDiaria.Size = new System.Drawing.Size(117, 15);
             this.lDemandaDiaria.TabIndex = 26;
-            this.lDemandaDiaria.Text = "Piezas a Ordenar";
+            this.lDemandaDiaria.Text = "Taza mantenimiento ";
             this.lDemandaDiaria.Click += new System.EventHandler(this.lDemandaDiaria_Click);
             // 
             // lProduccion
             // 
             this.lProduccion.AutoSize = true;
             this.lProduccion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lProduccion.Location = new System.Drawing.Point(69, 237);
-            this.lProduccion.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lProduccion.Location = new System.Drawing.Point(60, 178);
+            this.lProduccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lProduccion.Name = "lProduccion";
-            this.lProduccion.Size = new System.Drawing.Size(167, 20);
+            this.lProduccion.Size = new System.Drawing.Size(132, 15);
             this.lProduccion.TabIndex = 25;
             this.lProduccion.Text = "Costo de Orden/pedido";
+            this.lProduccion.Click += new System.EventHandler(this.lProduccion_Click);
             // 
             // lPiezasOrdenar
             // 
             this.lPiezasOrdenar.AutoSize = true;
             this.lPiezasOrdenar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lPiezasOrdenar.Location = new System.Drawing.Point(69, 57);
-            this.lPiezasOrdenar.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lPiezasOrdenar.Location = new System.Drawing.Point(60, 43);
+            this.lPiezasOrdenar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lPiezasOrdenar.Name = "lPiezasOrdenar";
-            this.lPiezasOrdenar.Size = new System.Drawing.Size(114, 20);
+            this.lPiezasOrdenar.Size = new System.Drawing.Size(90, 15);
             this.lPiezasOrdenar.TabIndex = 24;
             this.lPiezasOrdenar.Text = "Demanda anual";
             this.lPiezasOrdenar.Click += new System.EventHandler(this.lPiezasOrdenar_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(307, 70);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 35;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(60, 70);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 23);
+            this.textBox2.TabIndex = 36;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(60, 138);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 23);
+            this.textBox3.TabIndex = 37;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(60, 209);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 23);
+            this.textBox4.TabIndex = 38;
+            // 
             // EOQ_Con_CH_comoporcentaje
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(615, 339);
+            this.ClientSize = new System.Drawing.Size(538, 254);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.ostras);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lResult);
@@ -131,7 +169,7 @@
             this.Controls.Add(this.lDemandaDiaria);
             this.Controls.Add(this.lProduccion);
             this.Controls.Add(this.lPiezasOrdenar);
-            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "EOQ_Con_CH_comoporcentaje";
             this.Text = "EOQ_Con_CH_comoporcentaje";
             this.Load += new System.EventHandler(this.EOQ_Con_CH_comoporcentaje_Load);
@@ -149,5 +187,9 @@
         private System.Windows.Forms.Label lDemandaDiaria;
         private System.Windows.Forms.Label lProduccion;
         private System.Windows.Forms.Label lPiezasOrdenar;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
