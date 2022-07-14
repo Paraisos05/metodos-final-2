@@ -32,5 +32,10 @@ namespace Project_Metodos
                 Console.WriteLine("{0} Exception caught.", ex);
             }
         }
+
+        private void CostoAnualAlmacenar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

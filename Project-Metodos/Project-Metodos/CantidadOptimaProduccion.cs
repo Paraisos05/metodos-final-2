@@ -8,30 +8,31 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Metodos_proyecto
+namespace Project_Metodos
 {
-    public partial class CostoAnualInstalar : Form
+    public partial class CantidadOptimaProduccion : Form
     {
-        public CostoAnualInstalar()
+        public CantidadOptimaProduccion()
         {
             InitializeComponent();
         }
 
-        private void bCostoAnual_Click(object sender, EventArgs e)
+        private void bCalcular_Click(object sender, EventArgs e)
         {
-
+            double d = 0;
             double D;
-            double Q;
-            double Cs;
-            double result;
+            double Cs = 0;
+            double Ch = 0;
+            double p;
             try
             {
+                d = double.Parse(tbDemandaDiaria.Text);
                 D = double.Parse(tbDemandaAnual.Text);
-                Q = double.Parse(tbPiezasOrdenar.Text);
                 Cs = double.Parse(tbCostoPreparar.Text);
-                result = (D / Q) * Cs;
+                Ch = double.Parse(tbCostoAnualAlmacenar.Text);
+                p = double.Parse(tbProduccion.Text);
 
-                lResult.Text = result.ToString();
+                lResult.Text = Math.Sqrt((2 * Cs * D) / (Ch * (1 - d / p))).ToString();
             }
             catch (Exception ex)
             {
@@ -39,7 +40,7 @@ namespace Metodos_proyecto
             }
         }
 
-        private void CostoAnualInstalar_Load(object sender, EventArgs e)
+        private void CantidadOptimaProduccion_Load(object sender, EventArgs e)
         {
 
         }

@@ -175,7 +175,7 @@ namespace Project_Metodos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //OpenChildForm(new Dashboard());
+            OpenChildForm(new CLEMc());
             hideSubmMenu();
 
         }
@@ -240,6 +240,7 @@ namespace Project_Metodos
 
         private void button5_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new CostoTotalAnual());
             hideSubmMenu();
         }
 
@@ -262,7 +263,7 @@ namespace Project_Metodos
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new EOQ_Con_CH_comoporcentaje());
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -301,6 +302,35 @@ namespace Project_Metodos
                 FormBorderStyle = FormBorderStyle.None;
             else
                 FormBorderStyle = FormBorderStyle.Sizable;
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+            OpenChildForm(new CostoAnualAlmacenamiento());
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new CostoAnualAlmacenamiento());
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new CantidadOptimaProduccion());
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ROPyNumeroOrdenesAnuales());
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ROPyNumeroOrdenesAnuales());
+
         }
     }
 }

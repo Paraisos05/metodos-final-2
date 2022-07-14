@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Metodos", "Project-Metodos\Project-Metodos.csproj", "{EFAB8BC4-7909-4788-B3EB-144C971C303F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project-Metodos", "Project-Metodos\Project-Metodos.csproj", "{EFAB8BC4-7909-4788-B3EB-144C971C303F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
