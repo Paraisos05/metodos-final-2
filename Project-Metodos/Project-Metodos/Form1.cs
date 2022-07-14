@@ -135,6 +135,7 @@ namespace Project_Metodos
         {
             ActivateButton(sender, RGBColors.color4);
             showSubMenu(panelProduccionSubmenu);
+            OpenChildForm(new DescuentoPorCantidad());
 
         }
 
