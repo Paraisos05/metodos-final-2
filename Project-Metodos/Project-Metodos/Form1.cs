@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
 
+
 namespace Project_Metodos
 {
     public partial class Form1 : Form
@@ -120,10 +121,11 @@ namespace Project_Metodos
         private void btnProduccion_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            
+            OpenChildForm(new Metodos_proyecto.DescuentoPorCantidad());
+
         }
 
-       
+
 
         private void btnSeguridad_Click(object sender, EventArgs e)
         {
@@ -135,15 +137,10 @@ namespace Project_Metodos
         {
             ActivateButton(sender, RGBColors.color4);
             showSubMenu(panelProduccionSubmenu);
-            OpenChildForm(new DescuentoPorCantidad());
 
         }
 
-        /*private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            currentChildForm.Close();
-            Reset();
-        }*/
+        
 
         private void Reset()
         {

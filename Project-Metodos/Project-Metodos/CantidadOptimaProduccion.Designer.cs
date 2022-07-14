@@ -50,10 +50,10 @@ namespace Project_Metodos
             // 
             this.lResult.AutoSize = true;
             this.lResult.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lResult.Location = new System.Drawing.Point(382, 265);
-            this.lResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lResult.Location = new System.Drawing.Point(437, 353);
+            this.lResult.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lResult.Name = "lResult";
-            this.lResult.Size = new System.Drawing.Size(16, 15);
+            this.lResult.Size = new System.Drawing.Size(18, 20);
             this.lResult.TabIndex = 32;
             this.lResult.Text = "...";
             // 
@@ -62,54 +62,54 @@ namespace Project_Metodos
             this.label1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(370, 231);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(423, 308);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(59, 15);
+            this.label1.Size = new System.Drawing.Size(75, 20);
             this.label1.TabIndex = 31;
             this.label1.Text = "Resultado";
             // 
             // tbCostoAnualAlmacenar
             // 
-            this.tbCostoAnualAlmacenar.Location = new System.Drawing.Point(222, 132);
-            this.tbCostoAnualAlmacenar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbCostoAnualAlmacenar.Location = new System.Drawing.Point(254, 176);
+            this.tbCostoAnualAlmacenar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tbCostoAnualAlmacenar.Name = "tbCostoAnualAlmacenar";
-            this.tbCostoAnualAlmacenar.Size = new System.Drawing.Size(116, 23);
+            this.tbCostoAnualAlmacenar.Size = new System.Drawing.Size(132, 27);
             this.tbCostoAnualAlmacenar.TabIndex = 30;
             // 
             // tbPiezas
             // 
-            this.tbPiezas.Location = new System.Drawing.Point(40, 70);
-            this.tbPiezas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbPiezas.Location = new System.Drawing.Point(46, 93);
+            this.tbPiezas.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tbPiezas.Name = "tbPiezas";
-            this.tbPiezas.Size = new System.Drawing.Size(116, 23);
+            this.tbPiezas.Size = new System.Drawing.Size(132, 27);
             this.tbPiezas.TabIndex = 29;
             // 
             // tbProduccion
             // 
-            this.tbProduccion.Location = new System.Drawing.Point(222, 70);
-            this.tbProduccion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbProduccion.Location = new System.Drawing.Point(254, 93);
+            this.tbProduccion.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tbProduccion.Name = "tbProduccion";
-            this.tbProduccion.Size = new System.Drawing.Size(116, 23);
+            this.tbProduccion.Size = new System.Drawing.Size(132, 27);
             this.tbProduccion.TabIndex = 28;
             // 
             // tbDemandaAnual
             // 
-            this.tbDemandaAnual.Location = new System.Drawing.Point(40, 190);
-            this.tbDemandaAnual.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbDemandaAnual.Location = new System.Drawing.Point(46, 253);
+            this.tbDemandaAnual.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tbDemandaAnual.Name = "tbDemandaAnual";
-            this.tbDemandaAnual.Size = new System.Drawing.Size(116, 23);
+            this.tbDemandaAnual.Size = new System.Drawing.Size(132, 27);
             this.tbDemandaAnual.TabIndex = 27;
             // 
             // lDemandaAnual
             // 
             this.lDemandaAnual.AutoSize = true;
             this.lDemandaAnual.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lDemandaAnual.Location = new System.Drawing.Point(40, 172);
-            this.lDemandaAnual.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lDemandaAnual.Location = new System.Drawing.Point(46, 229);
+            this.lDemandaAnual.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lDemandaAnual.Name = "lDemandaAnual";
-            this.lDemandaAnual.Size = new System.Drawing.Size(92, 15);
+            this.lDemandaAnual.Size = new System.Drawing.Size(116, 20);
             this.lDemandaAnual.TabIndex = 26;
             this.lDemandaAnual.Text = "Demanda Anual";
             // 
@@ -117,10 +117,10 @@ namespace Project_Metodos
             // 
             this.lProduccion.AutoSize = true;
             this.lProduccion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lProduccion.Location = new System.Drawing.Point(222, 39);
-            this.lProduccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lProduccion.Location = new System.Drawing.Point(254, 52);
+            this.lProduccion.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lProduccion.Name = "lProduccion";
-            this.lProduccion.Size = new System.Drawing.Size(68, 15);
+            this.lProduccion.Size = new System.Drawing.Size(83, 20);
             this.lProduccion.TabIndex = 25;
             this.lProduccion.Text = "Produccion";
             // 
@@ -128,10 +128,10 @@ namespace Project_Metodos
             // 
             this.lPiezasOrdenar.AutoSize = true;
             this.lPiezasOrdenar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lPiezasOrdenar.Location = new System.Drawing.Point(40, 39);
-            this.lPiezasOrdenar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lPiezasOrdenar.Location = new System.Drawing.Point(46, 52);
+            this.lPiezasOrdenar.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lPiezasOrdenar.Name = "lPiezasOrdenar";
-            this.lPiezasOrdenar.Size = new System.Drawing.Size(92, 15);
+            this.lPiezasOrdenar.Size = new System.Drawing.Size(118, 20);
             this.lPiezasOrdenar.TabIndex = 24;
             this.lPiezasOrdenar.Text = "Piezas a ordenar";
             // 
@@ -139,68 +139,69 @@ namespace Project_Metodos
             // 
             this.lCostoAnualAlmacenar.AutoSize = true;
             this.lCostoAnualAlmacenar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lCostoAnualAlmacenar.Location = new System.Drawing.Point(222, 107);
-            this.lCostoAnualAlmacenar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lCostoAnualAlmacenar.Location = new System.Drawing.Point(254, 143);
+            this.lCostoAnualAlmacenar.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lCostoAnualAlmacenar.Name = "lCostoAnualAlmacenar";
-            this.lCostoAnualAlmacenar.Size = new System.Drawing.Size(149, 15);
+            this.lCostoAnualAlmacenar.Size = new System.Drawing.Size(187, 20);
             this.lCostoAnualAlmacenar.TabIndex = 23;
             this.lCostoAnualAlmacenar.Text = "Costo anual por almacenar";
             // 
             // bCalcular
             // 
-            this.bCalcular.Location = new System.Drawing.Point(231, 259);
-            this.bCalcular.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bCalcular.BackColor = System.Drawing.Color.MediumOrchid;
+            this.bCalcular.Location = new System.Drawing.Point(264, 345);
+            this.bCalcular.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.bCalcular.Name = "bCalcular";
-            this.bCalcular.Size = new System.Drawing.Size(88, 27);
+            this.bCalcular.Size = new System.Drawing.Size(101, 36);
             this.bCalcular.TabIndex = 22;
             this.bCalcular.Text = "Calcular";
-            this.bCalcular.UseVisualStyleBackColor = true;
+            this.bCalcular.UseVisualStyleBackColor = false;
             this.bCalcular.Click += new System.EventHandler(this.bCalcular_Click);
             // 
             // tbDemandaDiaria
             // 
-            this.tbDemandaDiaria.Location = new System.Drawing.Point(40, 132);
-            this.tbDemandaDiaria.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbDemandaDiaria.Location = new System.Drawing.Point(46, 176);
+            this.tbDemandaDiaria.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tbDemandaDiaria.Name = "tbDemandaDiaria";
-            this.tbDemandaDiaria.Size = new System.Drawing.Size(116, 23);
+            this.tbDemandaDiaria.Size = new System.Drawing.Size(132, 27);
             this.tbDemandaDiaria.TabIndex = 34;
             // 
             // lDemandaDiaria
             // 
             this.lDemandaDiaria.AutoSize = true;
             this.lDemandaDiaria.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lDemandaDiaria.Location = new System.Drawing.Point(40, 107);
-            this.lDemandaDiaria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lDemandaDiaria.Location = new System.Drawing.Point(46, 143);
+            this.lDemandaDiaria.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lDemandaDiaria.Name = "lDemandaDiaria";
-            this.lDemandaDiaria.Size = new System.Drawing.Size(90, 15);
+            this.lDemandaDiaria.Size = new System.Drawing.Size(116, 20);
             this.lDemandaDiaria.TabIndex = 33;
             this.lDemandaDiaria.Text = "Demanda diaria";
             // 
             // tbCostoPreparar
             // 
-            this.tbCostoPreparar.Location = new System.Drawing.Point(40, 259);
-            this.tbCostoPreparar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tbCostoPreparar.Location = new System.Drawing.Point(46, 345);
+            this.tbCostoPreparar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tbCostoPreparar.Name = "tbCostoPreparar";
-            this.tbCostoPreparar.Size = new System.Drawing.Size(116, 23);
+            this.tbCostoPreparar.Size = new System.Drawing.Size(132, 27);
             this.tbCostoPreparar.TabIndex = 36;
             // 
             // lCostoPreparar
             // 
             this.lCostoPreparar.AutoSize = true;
             this.lCostoPreparar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lCostoPreparar.Location = new System.Drawing.Point(40, 231);
-            this.lCostoPreparar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lCostoPreparar.Location = new System.Drawing.Point(46, 308);
+            this.lCostoPreparar.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lCostoPreparar.Name = "lCostoPreparar";
-            this.lCostoPreparar.Size = new System.Drawing.Size(101, 15);
+            this.lCostoPreparar.Size = new System.Drawing.Size(129, 20);
             this.lCostoPreparar.TabIndex = 35;
             this.lCostoPreparar.Text = "Costo de preparar";
             // 
             // CantidadOptimaProduccion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(488, 322);
+            this.ClientSize = new System.Drawing.Size(558, 429);
             this.Controls.Add(this.tbCostoPreparar);
             this.Controls.Add(this.lCostoPreparar);
             this.Controls.Add(this.tbDemandaDiaria);
@@ -216,7 +217,7 @@ namespace Project_Metodos
             this.Controls.Add(this.lPiezasOrdenar);
             this.Controls.Add(this.lCostoAnualAlmacenar);
             this.Controls.Add(this.bCalcular);
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "CantidadOptimaProduccion";
             this.Text = "CantidadOptimaProduccion";
             this.Load += new System.EventHandler(this.CantidadOptimaProduccion_Load);
